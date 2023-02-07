@@ -1,0 +1,895 @@
+@font-face {
+    font-family: 'AGUniversityCyr-Roman';
+    font-style: normal;
+    font-display: swap;
+    font-weight: normal;
+    src: url(../fonts/aguniversitycyr-roman-normal.ttf) format('truetype');
+}
+
+:root {
+    font-size: 10px;
+    color: white;
+}
+
+body {
+    background: #040202;
+}
+
+h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.gradient-color {
+    background: linear-gradient(262.61deg, #040202 -34.57%, rgba(28, 33, 41, 0) 99.88%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.gradient-color-second {
+    background: linear-gradient(265.04deg, rgba(4, 2, 2, 0.5) 3.39%, rgba(28, 33, 41, 0) 45.03%, rgba(4, 2, 2, 0.5) 84.97%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.wrapper {
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+.present {
+    min-height: 100vh;
+    background-image: url("../img/main_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 40rem;
+}
+
+.bg-fade {
+    height: 30rem;
+    background-image: url("../img/fade_sections.svg");
+    background-size: cover;
+    top: -50%;
+}
+
+header {
+    padding-top: 4rem;
+}
+
+.header__logo-image {
+    border-radius: 8px;
+}
+
+.header__logo-text {
+    font-size: 1.4rem;
+    line-height: 130.7%;
+    max-width: 185px;
+    font-weight: 300;
+    color: #848484
+}
+
+.present__title {
+    font-size: 8rem;
+    line-height: 110%;
+    text-transform: uppercase;
+    max-width: 800px;
+    font-weight: 300;
+}
+
+.present__near {
+    gap: 17px;
+}
+
+.present__near-img {
+    width: 6rem;
+}
+
+.present__near-text {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 130%;
+    max-width: 384px;
+}
+
+.present {
+    gap: 12rem;
+}
+
+.present__content {
+    flex: 0.6;
+}
+
+.btn {
+    background: radial-gradient(26.72% 26.72% at 49.99% 11.34%, rgba(255, 255, 255, 0.432) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(89.91deg, #CA3B3B 15.25%, #D14848 52.94%, #C93A3A 89.1%);
+    box-shadow: inset 0px 4px 28px rgba(255, 255, 255, 0.53);
+    border-radius: 47px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+.present__btn {
+    padding: 4rem 0;
+    width: 46rem;
+    gap: 15px;
+}
+
+.present__btn h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.present__btn p {
+    color: #5E1313;
+    font-size: 14px;
+}
+
+.present__content-block {
+    gap: 40px;
+}
+
+.btn-wrapper {
+    padding-bottom: 8px !important;
+    background: #9F0114 !important;
+}
+
+.present__btn-wrapper {
+    border-radius: 47px;
+    max-width: 46rem;
+}
+
+.sexy-girls {
+    padding: 20rem 0;
+    background-image: url("../img/second_bg.png");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.sexy-girls__logo {
+    width: 195px;
+    height: 195px;
+}
+
+.sexy-girls__left, .sexy-girls__right {
+    max-width: 50rem;
+    gap: 4.5rem;
+}
+
+.sexy-girls__left h1 {
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.sexy-girls__btn-wrapper, .price__btn-wrapper, .modal__btn-wrapper {
+    max-width: 30rem;
+    border-radius: 30px;
+}
+.modal__btn {
+    width: 30rem;
+    margin: 0 auto;
+}
+.modal__content {
+    width: 55rem;
+    border-radius: 15px;
+}
+.modal__close {
+    width: 2rem;
+    margin-bottom: 1rem;
+}
+.sexy-girls__btn, .price__btn, .modal__btn {
+    border-radius: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 2.5rem;
+    width: 30rem;
+
+}
+
+.sexy-girls__feature img {
+    width: 65px;
+    height: 65px;
+}
+
+.sexy-girls__feature p {
+    max-width: 212px;
+}
+
+.sexy-girl-item p, .sexy-girls__feature p {
+    font-size: 2rem;
+    line-height: 130%;
+}
+
+.sexy-girls__btn p {
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    color: #FFB3B1;
+}
+
+.comfort-zone {
+    background-image: url("../img/comfort_bg.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.31);
+    padding: 7rem 0;
+
+}
+
+.comfort-zone__block {
+    padding: 5vh 0;
+}
+
+.comfort-zone__title {
+
+}
+
+.comfort-zone__items {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.section__title {
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    bottom: -20%;
+    line-height: 120%;
+}
+
+.comfort-zone__item {
+    max-width: 335px;
+}
+
+.comfort-zone__item img {
+    width: 160px;
+}
+
+.comfort-zone__item h1 {
+    font-size: 64px;
+    padding-bottom: 0.5rem;
+}
+
+.comfort-zone__item-description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.comfort__btn {
+    border-radius: inherit;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 2.5rem;
+    width: 40rem;
+
+}
+
+.comfort-zone__btn-wrapper {
+    max-width: 40rem;
+    border-radius: 30px;
+
+
+}
+.btn-unfilled {
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid #CB3D3D;
+    border-radius: 30px;
+}
+.btn-unfilled p {
+    color: #7D7D7D;
+}
+
+.catalog {
+    background-color: #020202;
+    padding-top: 13rem;
+}
+
+.catalog__item {
+    max-width: 260px;
+}
+
+.catalog__item img {
+    width: 260px;
+    border-radius: 1rem;
+}
+
+.catalog__descriptions p {
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.catalog__text h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.catalog__link {
+    display: block;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration-line: underline;
+    color: #CB3D3D;
+    margin-top: 1rem;
+}
+
+.price {
+    padding-top: 19rem;
+}
+.price__content {
+    max-width: 705px;
+    padding: 8rem 0 4rem 8rem;
+    box-sizing: border-box;
+}
+
+.price__block {
+    background-image: url("../img/price_bg.png");
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+}
+
+.price__title {
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+
+}
+
+.price__subtitle {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 130%;
+}
+
+.price__info-block {
+    margin-top: 2rem;
+}
+.price__deps {
+    margin-bottom: 2rem;
+    max-width: 225px;
+}
+.price__btn {
+    font-size: 14px;
+}
+.price__deps-item p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+}
+.price__note {
+    font-size: 16px;
+    line-height: 130%;
+}
+.price__img-wrapper{
+    width: 30%;
+    display: contents;
+}
+.price__img-block {
+    background-image: url("../img/price_img.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: left;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 120%;
+}
+.get-girl {
+    padding-top: 12rem;
+    background-image: url("../img/getgirls.png");
+    background-size: cover;
+    padding-bottom: 17rem;
+}
+.get-girl__title {
+    margin-bottom: 4rem;
+}
+.get-girls__action {
+    align-items: center;
+}
+.get-girls__action p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    max-width: 235px;
+}
+.get-girls__action img {
+    width: 360px;
+    border-radius: 12px;
+}
+.modal {
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.6);
+}
+.modal__content {
+    padding: 5rem;
+    background: #0F1114;
+}
+.modal__content p {
+    font-size: 20px;
+}
+
+.modal__content .section__title{
+    font-size: 32px;
+}
+.disable-scrolling {
+    overflow-y: hidden;
+}
+.modal-opened {
+    display: flex;
+}
+
+@media (min-width: 2000px) {
+    .comfort-zone, .sexy-girls {
+        padding: 10vw 0;
+    }
+    .present {
+        min-height: unset;
+        gap: 36vh;
+    }
+
+}
+@media (max-width: 1600px) {
+    .present {
+        min-height: 100vh;
+        background-image: url(../img/main_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 0rem;
+
+    }
+}
+@media (max-width: 1250px) {
+    .sexy-girls {
+        padding: 10rem 0;
+    }
+    .wrapper {
+        max-width: 900px;
+    }
+    .catalog__item img{
+        max-width: 200px;
+    }
+    .catalog__item {
+        max-width: 200px;
+    }
+    .catalog__descriptions p {
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .price__img-wrapper {
+       display: none;
+    }
+    .price__content {
+        max-width: 100%;
+        padding: 4rem 8rem
+    }
+    .get-girls__action {
+        gap: 13px;
+    }
+    .get-girls__action img {
+        width: 255px;
+    }
+    .get-girls__action p {
+        font-size: 16px;
+        line-height: 120%;
+        max-width: 198px;
+    }
+    .get-girl {
+        padding-bottom: 10rem;
+    }
+    .comfort-zone__title-img {
+        max-width: 95%;
+    }
+}
+@media (max-width: 950px) {
+    .present {
+        background-position: center;
+    }
+    .wrapper {
+        max-width: 720px;
+    }
+    .present__title {
+        font-size: 6rem;
+        line-height: 104%;
+    }
+    .present__near-text {
+        font-size: 2rem;
+        line-height: 120%;
+        max-width: 324px;
+    }
+    .present__near-img {
+        width: 4rem;
+    }
+    .present__btn {
+        padding: 2.5rem 0;
+        width: 33rem;
+    }
+    .comfort__btn {
+        font-size: 13px;
+        padding: 2.2rem;
+        width: 33rem;
+    }
+    .present__btn img {
+        width: 30px;
+    }
+    .present__btn h3 {
+        font-size: 16px;
+    }
+    .present__btn p {
+        font-size: 10px;
+    }
+
+    .sexy-girls {
+        padding: 1rem 0;
+    }
+    .sexy-girls__right, .sexy-girls__left {
+        gap: 2.5rem;
+    }
+    .sexy-girls__right {
+        max-width: 39%;
+    }
+    .sexy-girls__left, .sexy-girls__right {
+        max-width: 45%;
+        gap: 4.5rem;
+    }
+
+    .sexy-girls__left h1 {
+        font-size: 40px;
+    }
+    .sexy-girls__logo {
+        width: 125px;
+        height: 125px;
+    }
+    .sexy-girl-item p, .sexy-girls__feature p {
+        font-size: 1.5rem;
+        line-height: 120%;
+    }
+    .sexy-girls__feature img {
+        width: 57px;
+        height: 57px;
+    }
+    .sexy-girls__btn, .price__btn {
+        font-size: 12px;
+        padding: 2rem;
+        width: 28rem;
+    }
+    .section__title {
+        font-size: 40px;
+    }
+    .comfort-zone__items {
+        margin-top: 3rem;
+    }
+    .comfort-zone__item h1 {
+        font-size: 42px;
+    }
+    .comfort-zone__item img {
+        width: 120px;
+    }
+    .comfort-zone__item {
+        max-width: 210px;
+    }
+    .comfort-zone__item-description {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 125%;
+    }
+    .catalog__item img, .catalog__item {
+        max-width: 160px;
+    }
+    .catalog__descriptions p {
+        font-size: 12px;
+        line-height: 117%;
+    }
+    .catalog__descriptions {
+        gap: 15px;
+    }
+    .catalog__text h2 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .catalog__link {
+        font-size: 13px;
+    }
+    .price__title {
+        font-size: 36px;
+    }
+    .price__subtitle {
+        font-size: 20px;
+    }
+    .price__deps-item p {
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .price__deps {
+        max-width: 194px;
+    }
+    .price__note {
+        font-size: 14px;
+    }
+    .get-girls__action img {
+        width: 200px;
+    }
+    .get-girls__action p {
+        font-size: 14px;
+        max-width: 174px;
+    }
+
+}
+@media (max-width: 760px) {
+    .wrapper {
+        max-width: 550px;
+    }
+    .present__title {
+        font-size: 4rem;
+    }
+    .present__near-text {
+        font-size: 1.6rem;
+        max-width: 250px;
+    }
+    .present {
+        min-height: 72vh;
+    }
+    .sexy-girls {
+        padding: 8rem 0;
+    }
+    .sexy-girls__logo {
+        width: 100px;
+        height: 100px;
+    }
+    .sexy-girls__left, .sexy-girls__right {
+        max-width: 50%;
+        gap: 2.5rem;
+    }
+    .sexy-girls__btn, .price__btn {
+        font-size: 10px;
+        padding: 1.6rem;
+        width: 21rem;
+    }
+    .sexy-girls__right {
+        max-width: 39%;
+    }
+    .sexy-girls__list {
+        gap: 24px;
+    }
+    .sexy-girls__left h1 {
+        font-size: 33px;
+    }
+    .sexy-girls__feature img {
+        width: 50px;
+        height: 51px;
+    }
+    .btn-wrapper {
+        padding-bottom: 4px !important;
+    }
+    .comfort-zone__items {
+        gap: 23%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .catalog__items {
+        width: 100%;
+        gap: 40px;
+        overflow-x: scroll;
+    }
+    .catalog__items::-webkit-scrollbar {
+        display: none;
+        visibility: hidden;
+    }
+    .catalog__descriptions p {
+        font-size: 15px;
+        line-height: 127%;
+    }
+    .catalog__item img{
+        max-width: 240px;
+    }
+    .catalog__item {
+        max-width: 230px;
+    }
+    .get-girls__actions {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .price__content {
+        max-width: 100%;
+        padding: 4rem;
+    }
+    .section__title {
+        font-size: 36px;
+    }
+}
+@media (max-width: 610px) {
+    .modal__content {
+        width: 31rem;
+        padding: 3.5rem;
+    }
+    .modal__btn {
+        font-size: 10px;
+        padding: 2.5rem;
+        width: 20rem;
+    }
+    .modal__content .section__title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .modal__content p {
+        font-size: 15px;
+    }
+    .wrapper {
+        max-width: 400px;
+    }
+    .present {
+        gap: 6rem;
+    }
+    .present__btn {
+        padding: 1.5rem 0;
+        width: 24rem;
+    }
+    .present__btn img {
+        width: 20px;
+    }
+    .present__btn h3 {
+        font-size: 12px;
+    }
+    .present__btn p {
+        font-size: 8px;
+    }
+    .sexy-girls__left h1 {
+        font-size: 23px;
+    }
+    .present {
+        min-height: 50vh;
+    }
+    .sexy-girl-item p, .sexy-girls__feature p {
+        font-size: 1.1rem;
+        line-height: 110%;
+    }
+    .sexy-girls__feature img {
+        width: 35px;
+        height: 35px;
+    }
+    .sexy-girl-item p, .sexy-girls__feature p {
+        font-size: 1.0rem;
+    }
+    .sexy-girl-item img {
+        width: 13px;
+    }
+    .sexy-girls__list {
+        gap: 23px;
+    }
+    .sexy-girls__btn, .price__btn {
+        font-size: 10px;
+        padding: 1.4rem;
+        width: 17rem;
+    }
+    .comfort-zone__title-img {
+        max-width: 100%;
+    }
+    .section__title {
+        font-size: 26px;
+    }
+    .comfort__btn {
+        font-size: 11px;
+        padding: 2.0rem;
+        width: 28rem;
+    }
+    .catalog__item img{
+        max-width: 220px;
+    }
+    .catalog__item {
+        max-width: 220px;
+    }
+    .catalog__descriptions p {
+        font-size: 12px;
+        line-height: 120%;
+    }
+    .price {
+        padding-top: 10rem;
+    }
+    .price__title {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .price__subtitle {
+        font-size: 16px;
+    }
+    .price__deps {
+        max-width: 155px;
+    }
+    .price__deps-item p {
+        font-size: 12px;
+    }
+    .sexy-girls__btn, .price__btn {
+        font-size: 8px;
+        padding: 1.2rem;
+        width: 15rem;
+    }
+    .price__note {
+        font-size: 11px;
+    }
+    .price__content {
+        padding: 3rem;
+    }
+}
+@media (max-width: 450px){
+    .wrapper {
+        max-width: 80vw;
+    }
+    .header__logo-image {
+        width: 47px;
+    }
+    .present__title {
+        font-size: 3rem;
+        max-width: 298px;
+    }
+    .present__near-img {
+        width: 3rem;
+    }
+    .present__near-text {
+        font-size: 1.2rem;
+        max-width: 152px;
+    }
+    .present__content-block {
+        gap: 25px;
+    }
+    .sexy-girls__block {
+        flex-direction: column;
+        gap: 55px;
+    }
+    .sexy-girls__left, .sexy-girls__right {
+        max-width: 100%;
+    }
+    .sexy-girls__list, .sexy-girls__features {
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .sexy-girl-item {
+        width: fit-content;
+    }
+    .sexy-girl-item p, .sexy-girls__feature p {
+        font-size: 1.1rem;
+    }
+    .sexy-girls__feature {
+        max-width: 170px;
+    }
+    .sexy-girls__left, .sexy-girls__right {
+        gap: 2rem;
+    }
+    .catalog__item img, .catalog__item {
+        max-width: 170px;
+    }
+    .price__info-block {
+        flex-direction: column;
+    }
+    .price__deps {
+        max-width: 100%;
+    }
+    .price__note {
+        text-align: left;
+        font-size: 9px;
+    }
+    .section__title {
+        font-size: 18px;
+    }
+    .present {
+        min-height: unset;
+    }
+    .sexy-girls__btn, .price__btn {
+        font-size: 11px;
+        width: 20rem;
+    }
+}
